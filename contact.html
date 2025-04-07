@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusrat Jahan Anika - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body><header>
+        
+        
+         <button id="dark-mode-toggle">🌙</button>
+        <nav>
+            <ul>
+                <li><a href="port.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="academic.html">Education</a></li>
+                
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="extra.html">Extracurricular Activities</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+<section id="contact-me">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+        <a href="https://www.linkedin.com/feed/" target="_blank" class="contact-item">
+            <img src="in.png" alt="LinkedIn" class="contact-icon">
+            LinkedIn
+        </a>
+
+        <a href="https://www.facebook.com/share/14scAg4DfTP/" target="_blank" class="contact-item">
+            <img src="fb.png" alt="Facebook" class="contact-icon">
+            Facebook
+        </a>
+
+        <a href="mailto:nusratssac114@gmail.com" class="contact-item">
+            <img src="email.png" alt="Email" class="contact-icon">
+            nusratssac114@gmail.com
+        </a>
+    </div>
+</section>
+</body>
+
+<section id="contact">
+    
+    <p>Have any questions? Fill out the form and I’ll get back to you soon!</p>
+
+    <form action="https://formspree.io/f/xanqrrdk" method="POST">
+        <label for="first-name">First Name (required)</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name">
+
+        <label for="email">Email (required)</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Which are you? (required)</label>
+        <div class="checkbox-group">
+            <input type="checkbox" id="student" name="category" value="Student">
+            <label for="student">Student</label>
+
+            <input type="checkbox" id="recruiter" name="category" value="Recruiter">
+            <label for="recruiter">Recruiter</label>
+
+            <input type="checkbox" id="company" name="category" value="Company">
+            <label for="company">Company (NIL)</label>
+        </div>
+        <label for="message">Your Message (required)</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+
+
+    <footer>
+        <p>&copy; 2025 Nusrat Jahan Anika. All rights reserved.</p>
+    </footer>
+</body>
+</html>
